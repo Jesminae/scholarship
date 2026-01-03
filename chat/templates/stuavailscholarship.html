@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholarships</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+
+        .card h2 {
+            margin: 0 0 10px;
+        }
+
+        .card p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Scholarships</h1>
+    <div id="scholarship-list"></div>
+
+    <script>
+        async function fetchScholarships() {
+            const response = await fetch('http://127.0.0.1:5000/scholarships');
+            const scholarships = await response.json();
+
+            const scholarshipList = document.getElementById('scholarship-list');
+            scholarships.forEach(scholarship => {
+                const card = document.createElement('div');
+                card.classList.add('card');
+                card.innerHTML = `
+                    <h2>${scholarship.name}</h2>
+                    <p>${scholarship.description}</p>
+                `;
+                scholarshipList.appendChild(card);
+            });
+        }
+
+        fetchScholarships();
+    </script>
+</body>
+</html>

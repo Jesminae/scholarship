@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD OR VIEW SCHOLARSHIPS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .main-container {
+            text-align: center;
+            width: 100%;
+            max-width: 500px;
+            background-color: #fff;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .heading-area {
+            margin-bottom: 30px;
+        }
+
+        .heading-area h1 {
+            font-size: 28px;
+            color: #007bff;
+            margin: 0;
+        }
+
+        .heading-area p {
+            font-size: 16px;
+            color: #555;
+            margin: 5px 0 0;
+        }
+
+        .scholarship-box {
+            background-color: #fff;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .scholarship-box h5 {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .button-container {
+            text-align: center;
+        }
+
+        .button-container button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .button-container button:hover {
+            background-color: #0056b3;
+        }
+
+        @media (max-width: 768px) {
+            .main-container {
+                padding: 15px;
+            }
+
+            .heading-area h1 {
+                font-size: 24px;
+            }
+
+            .heading-area p {
+                font-size: 14px;
+            }
+
+            .button-container button {
+                font-size: 14px;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="heading-area">
+            <h1>Welcome to the Scholarship Portal</h1>
+            <p>Explore available scholarships or add new ones below</p>
+        </div>
+
+        <div class="scholarship-box">
+            <h5 class="SCHOLARSHIPS">AVAILABLE SCHOLARSHIP</h5>
+            <div class="button-container">
+                <form action="offeditscholarship.html">
+                    <button type="submit"> VIEW </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="scholarship-box">
+            <h5 class="SCHOLARSHIPS">ADD SCHOLARSHIPS</h5>
+            <div class="button-container">
+                <form action="addscholarship.html">
+                    <button type="submit">ADD SCHOLARSHIP</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
