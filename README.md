@@ -40,16 +40,14 @@ python app.py
 ### Project Documentation
 For Software:
 
-# Screenshots (Add at least 3)
+# Screenshots 
 ![WhatsApp Image 2025-01-26 at 11 22 11 AM (1)](https://github.com/user-attachments/assets/a536f37b-383d-4ce1-a2ff-16605aa54143)
 
 ![WhatsApp Image 2025-01-26 at 11 21 15 AM](https://github.com/user-attachments/assets/3f2578d8-9766-459b-aae0-12cef95c4f00)
 
 ![WhatsApp Image 2025-01-26 at 11 22 11 AM](https://github.com/user-attachments/assets/7e3501ee-6425-47c7-a2c1-4220aff69080)
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+
 
 
 
