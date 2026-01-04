@@ -55,7 +55,7 @@ For Software:
 
 ## Team Contributions
 - Adila Shaharban -Back end ,Front end,
-- Jesmina E: Front end
+- Jesmina E: Front end,git
 - ABDA:  idea,documentation
 
 ---
